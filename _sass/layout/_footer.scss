@@ -14,13 +14,13 @@
 
 			li {
 				border-left: solid 1px _palette(border);
-				color: _palette(fg-light);
+				color: white;
 				display: inline-block;
 				line-height: 1;
 				margin-left: 1em;
 				padding-left: 1em;
 
-				&:first-child {
+				&:first-child {   /// This works
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
