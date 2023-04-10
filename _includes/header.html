@@ -3,7 +3,7 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> </a>
+	<a href="{{ "" | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> </a>
 	<nav>
 		<a href="#menu"></a>
 	</nav>
@@ -14,7 +14,15 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.pages %}
+		<li><a href="/../index.html" class="links">Home</a></li>
+		<li><a href="/../solutions.html" class="links">Solutions</a></li>
+		<li><a href="/../research.html" class="links">Research</a></li>
+		<li><a href="/../about.html" class="links">About</a></li>
+		<li><a href="/../career.html" class="links">Career</a></li>
+
+
+		<!-- ତଳ Logic ଏବେ ବ୍ଯବହାର କରିବା ଦରକାର ନାହିଁ  -->
+        <!-- {% for page in site.pages %}
 		    {% if page.layout == "home" %}
 		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
 	    	{% endif %}
@@ -23,10 +31,16 @@
 		    {% if page.layout != "home" and page.nav-menu == true %}
 		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		    {% endif %}
-		{% endfor %}
+		{% endfor %} -->
+		<!-- <li><a href="#" class="links">Get Started</a></li>
+		<li><a href="#" class="links">Log In</a></li>  ବଢିଆ କାମ କରୁଛି |-->
 	</ul>
+	
+	<!-- Todo : ଏଠି Submenu କେମିତି କରିବା  -->
+	
 	<!-- <ul class="actions vertical">
 		<li><a href="#" class="button special fit">Get Started</a></li>
 		<li><a href="#" class="button fit">Log In</a></li>
 	</ul> -->
+	  
 </nav>

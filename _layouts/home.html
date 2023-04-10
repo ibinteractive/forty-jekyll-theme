@@ -11,9 +11,7 @@
 <body>
 
     {% include header.html %}
-
-    <!-- Banner -->
-    <!-- <section id="banner" class="major">
+    <section id="banner" class="major">
         <div class="inner">
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
@@ -25,28 +23,102 @@
                 </ul>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- Main -->
-    <div id="main">
+<!-- Main -->
+<div id="main">
 
-        <!-- One -->
-        <!-- {% include tiles.html %} -->
-
-        <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Swain Technologies</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
+    <!-- One -->
+    <section id="one">
+        <div class="inner">
+            <header class="major">
+                <h2>Why Swain Technologies?</h2>
+            </header>
+            <p>Fascinated by our deep love for the technologies, we started our jouney
+                to help people & businesses. Web technology is our first step in this endeavour.
+                Web & its resources should be accessible to everybody 
+                & that is our driving mantra.
+            </p>
+            <ul class="actions">
+                <li><a href="solutions.html" class="button">Check Our Solutions</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- Two -->
+    <section id="two" class="spotlights">
+        <section>
+            <a href="generic.html" class="image">
+                <img src="{% link assets/images/pexels-serpstat-572056.jpg %}" alt="" data-position="center center" />
+            </a>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>Digital Transformation</h3>
+                    </header>
+                    <p>We have deep expertise in information technology & digital space.
+                        Our aim is to made IT accessible to individual & businesses. </p>
+                    <ul class="actions">
+                        <li><a href="generic.html" class="button">Learn more</a></li>
+                    </ul>
+                </div>
             </div>
         </section>
-
+        <section>
+            <a href="generic.html" class="image">
+                <img src="{% link assets/images/pexels-lukas-590016.jpg %}" alt="" data-position="top center" />
+            </a>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>Market Intelligence</h3>
+                    </header>
+                    <p>We just don't onboard our customers in the cyber space but with effective 
+                        market data analytics ,we made them stand out  </p>
+                    <ul class="actions">
+                        <li><a href="generic.html" class="button">Learn more</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <a href="generic.html" class="image">
+                <img src="{% link assets/images/pexels-cottonbro-studio-5474288.jpg %}" alt="" data-position="25% 25%" />
+            </a>
+            <div class="content">
+                <div class="inner">
+                    <header class="major">
+                        <h3>Cyber Security</h3>
+                    </header>
+                    <p>Security in the cyber space is of utmost importance. Digital assets are critical.
+                        We make sure of it by our indepth research.
+                    </p>
+                    <ul class="actions">
+                        <li><a href="generic.html" class="button">Learn more</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <!-- Three -->
+    <!-- <section id="three">
+        <div class="inner">
+            <header class="major">
+                <h2>Massa libero</h2>
+            </header>
+            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+            <ul class="actions">
+                <li><a href="generic.html" class="button next">Get Started</a></li>
+            </ul>
+        </div>
+    </section> -->
+    
     </div>
+    
+
+
+
 
     {% include footer.html %}
 
