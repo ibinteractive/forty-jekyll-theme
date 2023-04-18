@@ -8,7 +8,7 @@ nav-menu: true
 
 <section id="two" class="spotlights">
         <section>
-            <a href="generic.html" class="image">
+            <a href="#" class="image">
                 <img src="{% link assets/images/pexels-cottonbro-studio-4064835.jpg %}" alt="" data-position="center center" />
             </a>
             <div class="content">
@@ -24,12 +24,12 @@ or
 
 you can send your bio to
 
-care@swaintechnologies.com
+<u>care@swaintechnologies.com</u>
 
  </p>
-                    <ul class="actions">
+                    <!-- <ul class="actions">
                         <li><a href="generic.html" class="button">Learn more</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </section>

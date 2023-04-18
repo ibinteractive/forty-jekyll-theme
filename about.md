@@ -1,6 +1,6 @@
 ---
 title: About
-layout: page
+layout: landing
 description: ''
 image: assets/images/pexels-aleksandar-pasaric-325185.jpg
 nav-menu: true
@@ -14,7 +14,7 @@ nav-menu: true
 
         {% include header.html %}
 
-<section id="banner" class="style2">
+<!-- <section id="banner" class="style2">
             <div class="inner">
                 <span class="image">
                     <img src="assets/images/pexels-aleksandar-pasaric-325185.jpg" alt="">
@@ -25,12 +25,12 @@ nav-menu: true
 
  </header>
 </div>
-</section>
+</section> -->
 
 
 <section id="two" class="spotlights">
         <section>
-            <a href="generic.html" class="image">
+            <a href="#" class="image">
                 <img src="{% link assets/images/pexels-fauxels-3184287.jpg %}" alt="" data-position="center center" />
             </a>
             <div class="content">
@@ -43,7 +43,7 @@ nav-menu: true
 We always try to solve the difficult problems & puzzles of our customers to make them happy & smile.
  </p>
                     <ul class="actions">
-                        <li><a href="generic.html" class="button">Learn more</a></li>
+                        <li><a href="solutions.html" class="button">Check our Solutions</a></li>
                     </ul>
                 </div>
             </div>
