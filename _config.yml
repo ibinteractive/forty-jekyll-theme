@@ -6,10 +6,10 @@ email: care@swaintechnologies.com
 baseurl: "/" #forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: Plot No. 1213, Jagamohan Nagar
-city: Bhubaneswar
+street_address: Medical Square, Grand Road
+city: Puri
 state: Odisha
-zip_code: 751030
+zip_code: 752001
 country: India
 phone: 784-781-9944
 
